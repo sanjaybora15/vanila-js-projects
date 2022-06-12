@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.search-container {
+    margin: 50px auto;
+    width: 400px;
+    position: relative;
+}
+
+.input-box {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    color: gray;
+}
+
+.recommendation-wrapper {
+    width: 100%;
+    position: absolute;
+    box-shadow: 0px 1px 5px 1px gainsboro;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+
+.visible {
+    display: block;
+}
+
+.search-item {
+    padding: 3px;
+}
+
+.search-item:hover {
+    color: lightblue;
+}
